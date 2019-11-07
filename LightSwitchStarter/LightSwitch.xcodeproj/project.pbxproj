@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112A53512373A94C006A8D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A53502373A94C006A8D23 /* AppDelegate.swift */; };
+		112A53562373A94C006A8D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112A53542373A94C006A8D23 /* Main.storyboard */; };
+		112A53582373A94E006A8D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112A53572373A94E006A8D23 /* Assets.xcassets */; };
+		112A535B2373A94E006A8D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112A53592373A94E006A8D23 /* LaunchScreen.storyboard */; };
+		112A536323748A9F006A8D23 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A536223748A9F006A8D23 /* Light.swift */; };
+		112A536523748B04006A8D23 /* LightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A536423748B04006A8D23 /* LightController.swift */; };
+		112A53672374B860006A8D23 /* SwitchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A53662374B860006A8D23 /* SwitchesTableViewController.swift */; };
+		112A53692374B92C006A8D23 /* LightSwitchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A53682374B92C006A8D23 /* LightSwitchDelegate.swift */; };
+		112A536B2374B981006A8D23 /* SwitchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112A536A2374B981006A8D23 /* SwitchesTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112A534D2373A94C006A8D23 /* LightSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112A53502373A94C006A8D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		112A53552373A94C006A8D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112A53572373A94E006A8D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112A535A2373A94E006A8D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112A535C2373A94E006A8D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112A536223748A9F006A8D23 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		112A536423748B04006A8D23 /* LightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightController.swift; sourceTree = "<group>"; };
+		112A53662374B860006A8D23 /* SwitchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesTableViewController.swift; sourceTree = "<group>"; };
+		112A53682374B92C006A8D23 /* LightSwitchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchDelegate.swift; sourceTree = "<group>"; };
+		112A536A2374B981006A8D23 /* SwitchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchesTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112A534A2373A94C006A8D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112A53442373A94C006A8D23 = {
+			isa = PBXGroup;
+			children = (
+				112A534F2373A94C006A8D23 /* LightSwitch */,
+				112A534E2373A94C006A8D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		112A534E2373A94C006A8D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112A534D2373A94C006A8D23 /* LightSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112A534F2373A94C006A8D23 /* LightSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				112A536E2374C232006A8D23 /* Models */,
+				112A536F2374C23D006A8D23 /* ViewControllers */,
+				112A53702374C249006A8D23 /* Views */,
+				112A53712374C252006A8D23 /* Protocols */,
+				112A536D2374C222006A8D23 /* Storyboards */,
+				112A536C2374C218006A8D23 /* Resources */,
+				112A535C2373A94E006A8D23 /* Info.plist */,
+			);
+			path = LightSwitch;
+			sourceTree = "<group>";
+		};
+		112A536C2374C218006A8D23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				112A53502373A94C006A8D23 /* AppDelegate.swift */,
+				112A53572373A94E006A8D23 /* Assets.xcassets */,
+				112A53592373A94E006A8D23 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		112A536D2374C222006A8D23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				112A53542373A94C006A8D23 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		112A536E2374C232006A8D23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				112A536223748A9F006A8D23 /* Light.swift */,
+				112A536423748B04006A8D23 /* LightController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		112A536F2374C23D006A8D23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				112A53662374B860006A8D23 /* SwitchesTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		112A53702374C249006A8D23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				112A536A2374B981006A8D23 /* SwitchesTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		112A53712374C252006A8D23 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				112A53682374B92C006A8D23 /* LightSwitchDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112A534C2373A94C006A8D23 /* LightSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112A535F2373A94E006A8D23 /* Build configuration list for PBXNativeTarget "LightSwitch" */;
+			buildPhases = (
+				112A53492373A94C006A8D23 /* Sources */,
+				112A534A2373A94C006A8D23 /* Frameworks */,
+				112A534B2373A94C006A8D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightSwitch;
+			productName = LightSwitch;
+			productReference = 112A534D2373A94C006A8D23 /* LightSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112A53452373A94C006A8D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Madison Waters";
+				TargetAttributes = {
+					112A534C2373A94C006A8D23 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 112A53482373A94C006A8D23 /* Build configuration list for PBXProject "LightSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112A53442373A94C006A8D23;
+			productRefGroup = 112A534E2373A94C006A8D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112A534C2373A94C006A8D23 /* LightSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112A534B2373A94C006A8D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112A535B2373A94E006A8D23 /* LaunchScreen.storyboard in Resources */,
+				112A53582373A94E006A8D23 /* Assets.xcassets in Resources */,
+				112A53562373A94C006A8D23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112A53492373A94C006A8D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112A53672374B860006A8D23 /* SwitchesTableViewController.swift in Sources */,
+				112A53692374B92C006A8D23 /* LightSwitchDelegate.swift in Sources */,
+				112A536523748B04006A8D23 /* LightController.swift in Sources */,
+				112A536323748A9F006A8D23 /* Light.swift in Sources */,
+				112A53512373A94C006A8D23 /* AppDelegate.swift in Sources */,
+				112A536B2374B981006A8D23 /* SwitchesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		112A53542373A94C006A8D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112A53552373A94C006A8D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		112A53592373A94E006A8D23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112A535A2373A94E006A8D23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112A535D2373A94E006A8D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112A535E2373A94E006A8D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112A53602373A94E006A8D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = LightSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambda.LightSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112A53612373A94E006A8D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = LightSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambda.LightSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112A53482373A94C006A8D23 /* Build configuration list for PBXProject "LightSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112A535D2373A94E006A8D23 /* Debug */,
+				112A535E2373A94E006A8D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112A535F2373A94E006A8D23 /* Build configuration list for PBXNativeTarget "LightSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112A53602373A94E006A8D23 /* Debug */,
+				112A53612373A94E006A8D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112A53452373A94C006A8D23 /* Project object */;
+}
